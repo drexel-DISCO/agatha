@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor files
+.DS_Store
+__MACOSX/
+.idea/
+.vscode/
+
+# Checkpoints and experiment outputs
+*.pt
+models/
+models_gated/
+models_gate_ablation/
+results_gate_ablation/
